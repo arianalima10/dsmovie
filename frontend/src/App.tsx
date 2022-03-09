@@ -1,21 +1,8 @@
-import {ReactComponent as GithubIcon} from './assets/img/github.svg';
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-	<header>
-	 <nav>
-	  <div>
-	   <h1>DSMovie</h1>
-
-	   <a href="https://github.com/arianalima10">
-	   <div>
-		   <GithubIcon />
-			<p>/arianalima10</p>
-	   </div>
-	   </a>
-	  </div>
-	 </nav>
-	</header>	
+	<Navbar />
   );
 }
 
